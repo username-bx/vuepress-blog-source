@@ -1,0 +1,91 @@
+---
+title: 搭建blog详细步骤
+date: 2023-10-19
+tags: 
+  - JavaScript
+  - Vue
+author: mbx
+location: shanghai  
+---
+
+# 从头开始
+根据步骤一步一步搭建,一定没问题的.
+
+> 参考文档: https://vuepress-theme-blog.billyyyyy3320.com/#intro
+
+## 安装
+
+```
+// 创建文件夹  进入文件夹路径
+mkdir blog && cd blog
+
+// 安装 vuepress 框架
+yarn add vuepress -D 
+
+// 安装主题
+yarn add vuepress-theme-meteorlxy -D
+
+```
+
+## 此时得到的文件路径
+
+```
+
+blog
+    node-modeules
+    package.json
+    yarn.lock
+
+```
+
+## 创建目录
+
+```json
+
+blog
+    _posts                              // 博客文章存储的地址
+        2023-10-19-第一章博客.md
+    .vuepress                           // 对vuepress的一些配置
+        config.js
+
+    node-modeules
+    package.json
+    yarn.lock
+
+```
+
+## 配置 .vuepress 文件夹下的 config.js
+
+```json
+
+module.exports = {
+    title: 'VuePress Blog Example', // Title for the site. This will be displayed in the navbar.
+    theme: 'vuepress-theme-meteorlxy',
+    themeConfig: {
+      // Please keep looking down to see the available options.
+    }
+}
+
+```
+
+## 配置 package.json
+
+```json
+
+{
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+}
+
+```
+
+## 运行
+
+```
+
+yarn dev
+
+```
+
