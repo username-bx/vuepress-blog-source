@@ -1488,7 +1488,7 @@
     "@vuepress/types" "1.9.10"
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-back-to-top@^1.3.0":
+"@vuepress/plugin-back-to-top@^1.3.0", "@vuepress/plugin-back-to-top@^1.9.10":
   version "1.9.10"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.9.10.tgz#7928d4da309119a20021eea90d94d4982026c791"
   integrity sha512-iInIp66wu717CAnT2pyd9Bs/vAgrUBOBIQ7WMnfJo07cW/ZIothpyrSHnpCRSsfJ/jLivMPqW0pviqppt64BzQ==

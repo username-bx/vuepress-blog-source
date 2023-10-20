@@ -1,9 +1,10 @@
 {
   "devDependencies": {
-    "vuepress": "^1.9.10",
-    "vuepress-theme-meteorlxy": "^1.9.0",
     "@vssue/api-github-v3": "^1.0.0",
-    "@vssue/vuepress-plugin-vssue": "^1.0.0"
+    "@vssue/vuepress-plugin-vssue": "^1.0.0",
+    "@vuepress/plugin-back-to-top": "^1.9.10",
+    "vuepress": "^1.9.10",
+    "vuepress-theme-meteorlxy": "^1.9.0"
   },
   "dependencies": {},
   "scripts": {

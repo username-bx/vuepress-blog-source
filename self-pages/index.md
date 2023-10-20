@@ -1,6 +1,7 @@
 ---
 layout: CustomPages
 title: 简介 (求职中...)
+header-title: true
 aside: false
 ---
 

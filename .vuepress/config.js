@@ -54,5 +54,5 @@ module.exports = {
       },
     },
     // dev 需要注释 base   build 打开
-    // base: './'
+    base: './'
   }
