@@ -1,9 +1,9 @@
 <template>
   <div class="show-pages">
     <div class="main-div">
-      <h2>Table of Contents</h2>
+      <!-- <h2>Table of Contents</h2> -->
 
-      <TOC />
+      <!-- <TOC /> -->
     </div>
 
     <div class="main-div">
