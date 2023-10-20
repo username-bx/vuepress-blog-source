@@ -4,6 +4,7 @@ date: 2023-10-19
 tags: 
   - JavaScript
   - Vue
+  - VuePress
 author: mbx
 location: shanghai  
 ---

@@ -1,7 +1,7 @@
 ---
-
-title: 简介 (求职中...)
-header-title: true
+layout: CustomPages
+title: 简介 (求职中....)
+aside: false
 ---
 
 
@@ -15,5 +15,4 @@ header-title: true
 2. xxxx
 ## 教育经历
 1. xxxx
-
 

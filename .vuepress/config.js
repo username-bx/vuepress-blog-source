@@ -36,13 +36,23 @@ module.exports = {
       nav: [
         { text: '首页', link: '/', exact: true },
         { text: '文章', link: '/posts/', exact: false },
-        { text: '介绍', link: '/self/', exact: false },
-        { text: 'UI作品展示', link: '/show/', exact: false },
+        { text: '介绍', link: '/self-pages/', exact: false },
+        { text: 'UI作品展示', link: '/show-pages/', exact: false },
       ],
 
       // 是否开启平滑滚动
       smoothScroll: true,
+
+      // 评论配置
+      comments: {
+        platform: 'github', // 可选，默认使用 'github'，还可以选择 'gitlab', 'bitbucket'。详情参考 Vssue 文档
+        owner: 'username-bx',
+        repo: 'vuepress-blog',
+        clientId: '5ae7cf8a9685c60a4833',
+        clientSecret: 'c49b7fed70cb7c1852c05c2f798a8c6a0d24f012',
+        autoCreateIssue: process.env.NODE_ENV !== 'development', // 可选，这样设置可以在开发环境下不自动创建 Issue
+      },
     },
     // dev 需要注释 base   build 打开
-    base: './'
+    // base: './'
   }
