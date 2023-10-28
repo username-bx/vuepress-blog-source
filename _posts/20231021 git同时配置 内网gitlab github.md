@@ -1,18 +1,11 @@
-\---
-
+---
 title: 使用ssh同时连接gitlab github
-
 date: 2023-10-21
-
 tags: 
-
- \- SSH
-
+  - SSH
 author: mbx
-
 location: shanghai  
-
-\---
+---
 
 
 

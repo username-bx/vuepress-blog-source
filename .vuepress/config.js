@@ -9,7 +9,7 @@ module.exports = {
     },
     // 分页配置 (可选)
     pagination: {
-      perPage: 5,
+      perPage: 7,
     },
     themeConfig: {
       // 主题语言，参考下方 [主题语言] 章节
