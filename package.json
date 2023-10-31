@@ -1,9 +1,11 @@
 {
+  "license": "MIT",
   "devDependencies": {
     "@vssue/api-github-v3": "^1.0.0",
     "@vssue/vuepress-plugin-vssue": "^1.0.0",
     "@vuepress/plugin-back-to-top": "^1.9.10",
     "@vuepress/plugin-google-analytics": "^1.9.10",
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
     "vuepress": "^1.9.10",
     "vuepress-theme-meteorlxy": "^1.9.0"
   },

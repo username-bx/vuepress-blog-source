@@ -75,9 +75,21 @@ module.exports = {
         {
           'ga': 'G-H3ZX4FWY5J' // UA-00000000-0
         }
+      ],
+      [
+        '@vuepress/medium-zoom', {
+          selector: 'img.zoom-custom-imgs',
+          // medium-zoom options here
+          // See: https://github.com/francoischalifour/medium-zoom#options
+          options: {
+            margin: 32,
+            background: '#000000',
+            scrollOffset: 40,
+          }
+        }
       ]
     ],
     
     // dev 需要注释 base   build 打开
-    base: './'
+    // base: './'
   }
