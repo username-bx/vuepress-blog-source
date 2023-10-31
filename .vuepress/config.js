@@ -68,6 +68,15 @@ module.exports = {
         },
       },
     },
+
+    plugins: [
+      [
+        '@vuepress/google-analytics',
+        {
+          'ga': 'G-H3ZX4FWY5J' // UA-00000000-0
+        }
+      ]
+    ],
     
     // dev 需要注释 base   build 打开
     base: './'
